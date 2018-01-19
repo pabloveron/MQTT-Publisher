@@ -1,4 +1,5 @@
-FROM python:slim# Enable systemd
+FROM python:slim
+# Enable systemd
 ENV INITSYSTEM on
 
 RUN pip install paho-mqtt
