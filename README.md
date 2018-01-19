@@ -2,9 +2,9 @@
 Docker virtualizing Raspbian and running python publisher
 
 # Build
-docker build -t test .
+docker build -t mqtt-publisher .
 
 # Run
 
-docker run test message_1
+docker run test mqtt-publisher
 
