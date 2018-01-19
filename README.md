@@ -6,5 +6,5 @@ docker build -t mqtt-publisher .
 
 # Run
 
-docker run test mqtt-publisher
+docker run mqtt-publisher
 
