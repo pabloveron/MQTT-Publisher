@@ -7,4 +7,3 @@ docker build -t mqtt-publisher .
 # Run
 
 docker run --net=mqttbridge -t mqtt-publisher message_1
-
